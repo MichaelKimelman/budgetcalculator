@@ -1,38 +1,177 @@
+html {
+  background-color: rgb(155, 209, 167);
+}
+
 .App {
+  padding: 20px;
+}
+
+h1 {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 120px;
+  color: rgb(75, 75, 75);
+  text-shadow: 4px 4px hsl(98, 100%, 79%);
+  margin: 50px 0px 10px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  text-align: center;
+  font-family: 'Lora', serif;
+  color: rgb(75, 75, 75);
+  font-size: 20px;
+  margin: 16px 0px 50px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ItemForm {
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px hsl(98, 100%, 79%);
+  max-width: 600px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#amount-input {
+  text-align: center;
+  border: none;
+  background: none;
+  font-size: 20px;
+  max-width: 120px;
+  color: rgb(75, 75, 75);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#category-input {
+  text-align: center;
+  border: none;
+  background: none;
+  font-size: 18px;
+  max-width: 200px;
+  color: rgb(75, 75, 75);
+}
+
+#date {
+  text-align: center;
+  border: none;
+  background: none;
+  font-size: 20px;
+  max-width: 200px;
+  color: rgb(75, 75, 75);
+}
+#add-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: rgb(75, 75, 75);
+  padding: 8;
+  border: none;
+  background: none;
+  text-shadow: 3px 3px hsl(98, 100%, 79%);
+  margin: 0px 0px 0px 35px;
+
+}
+
+#item-list {
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: white;
+  color: rgb(75, 75, 75);
+  font-family: Verdana, sans-serif;
+  font-size: large;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px hsl(98, 100%, 79%);
+}
+
+#month-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  color: rgb(75, 75, 75);
+  padding: 8;
+  border: none;
+  background: rgb(247, 255, 225);
+  border-radius: 10px;
+  text-shadow: 3px 3px hsl(98, 100%, 79%);
+  box-shadow: 4px 4px hsl(98, 100%, 79%);
+  margin: 0px 0px 20px 15px;
+}
+
+#category-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  color: rgb(75, 75, 75);
+  padding: 8;
+  border: none;
+  background: rgb(247, 255, 225);
+  border-radius: 10px;
+  text-shadow: 3px 3px hsl(98, 100%, 79%);
+  box-shadow: 4px 4px hsl(98, 100%, 79%);
+  margin: 0px 0px 20px 15px;
+}
+
+.Totals {
+  display: flex;
+  justify-content: center;
+}
+
+.ChangeMonth {
+  margin: 0 50px;
+  padding: 25px;
+  border: none;
+  background: white;
+  font-family: Verdana, sans-serif;
+  color: rgb(75, 75, 75);
+  border-radius: 10px;
+  box-shadow: 3px 3px hsl(98, 100%, 79%);
+}
+
+#change-month-input {
+  text-align: center;
+  border: none;
+  background: none;
+  font-size: 18px;
+  max-width: 180px;
+  color: rgb(75, 75, 75);
+}
+
+.SeeCategory {
+  margin: 0 10px;
+  padding: 25px;
+  border: none;
+  background: white;
+  font-family: Verdana, sans-serif;
+  color: rgb(75, 75, 75);
+  border-radius: 10px;
+  box-shadow: 3px 3px hsl(98, 100%, 79%);
+}
+
+#see-category-input {
+  text-align: center;
+  border: none;
+  background: none;
+  font-size: 18px;
+  max-width: 180px;
+  color: rgb(75, 75, 75);
+}
+
+#authors {
+  grid-column-start: 2;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  color: rgb(75, 75, 75);
+  padding: 20px;
 }
