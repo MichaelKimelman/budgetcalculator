@@ -11,37 +11,37 @@ function App() {
   const [items, setItems] = useState([
     /* {
       currency: 100,
-      category: "entertainment",
+      category: "Entertainment",
       date: "2022-02-01"
     },
     {
       currency: 300,
-      category: "entertainment",
+      category: "Entertainment",
       date: "2022-02-01"
     },
     {
       currency: 50,
-      category: "entertainment",
+      category: "Entertainment",
       date: "2022-02-01"
     },
     {
       currency: 90,
-      category: "transportation",
+      category: "Transportation",
       date: "2022-03-01"
     },
     {
       currency: 150,
-      category: "housing",
+      category: "Housing",
       date: "2022-03-01"
     },
     {
       currency: 1337,
-      category: "entertainment",
+      category: "Entertainment",
       date: "2022-05-13"
     },
     {
       currency: 9001,
-      category: "entertainment",
+      category: "Entertainment",
       date: "2022-05-23"
     } */
   ]);
@@ -102,8 +102,6 @@ function App() {
             <Item key={index} index={index} item={item} />
           ))}
         </div>
-        {/* <SearchForm />
-        <Items />  */}
       </div>
 
       <div className='Totals'>
