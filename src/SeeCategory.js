@@ -14,7 +14,7 @@ function SeeCategory({getCategory}) {
             required
             onChange={(e)=> setCategoryInput(e.target.value)}
           >
-            <option value="" >Choose Category</option>
+            <option value="" disabled selected hidden>Choose Category</option>
             <option value="Entertainment">Entertainment</option>
             <option value="Housing">Housing</option>
             <option value="Transportation">Transportation</option>
