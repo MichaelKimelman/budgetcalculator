@@ -112,14 +112,14 @@ function App() {
           {month.map((item, index) => (
             <Item key={index} index={index} item={item} />
           ))}
-          Total: {totalMonth}
+          <p className='Total-Month'>Total: {totalMonth}</p>
         </div>
         <div className='SeeCategory'>
           <SeeCategory getCategory={getCategory} />
           {category.map((item, index) => (
             <Item key={index} index={index} item={item} />
           ))}
-          Total: {totalCategory}
+          <p className='Total-Category'>Total: {totalCategory}</p>
         </div>
       </div>
 
